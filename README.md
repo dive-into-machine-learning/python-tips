@@ -25,42 +25,42 @@ If nobody’s told you yet, Python’s community is one of the most important th
 
 Keep these handy.
 
-  * The official docs! [https://docs.python.org/2/](https://docs.python.org/2/)
-  * [Learn X in Y Minutes: Python](https://learnxinyminutes.com/docs/python/) is a good cheat sheet.
-  * [Flow-chart to help you get past common Python error messages](http://i.imgur.com/WRuJV6r.png)
+ * The official docs! [https://docs.python.org/2/](https://docs.python.org/2/)
+ * [Learn X in Y Minutes: Python](https://learnxinyminutes.com/docs/python/) is a good cheat sheet.
+ * [Flow-chart to help you get past common Python error messages](http://i.imgur.com/WRuJV6r.png)
 
 
 ### Courses and books
 
 If you like self-guided courses, try one of these:
 
-  * [RealPython](https://realpython.com/): "Real Python teaches programming and web development through hands-on, interesting examples that are useful and fun!" (paid)
-  * or _[Dive into Python](http://www.diveinto.org/python3/)_ (the classic). (Note that [Dive into Python 3](http://www.diveinto.org/python3/) only covers new & advanced features in Python 3 - not the language as a whole. Don't start there.) (free)
-  * or [Google's Python Introduction course (free)](https://developers.google.com/edu/python/)
-  * or [How to Think Like a Computer Scientist: Learning with Python, Interactive Edition (free)](http://interactivepython.org/courselib/static/thinkcspy/index.html) — **if you're relatively new to programing, this is an especially good fit for you**
+ * [RealPython](https://realpython.com/): "Real Python teaches programming and web development through hands-on, interesting examples that are useful and fun!" (paid)
+ * or _[Dive into Python](http://www.diveinto.org/python3/)_ (the classic). (Note that [Dive into Python 3](http://www.diveinto.org/python3/) only covers new & advanced features in Python 3 - not the language as a whole. Don't start there.) (free)
+ * or [Google's Python Introduction course (free)](https://developers.google.com/edu/python/)
+ * or [How to Think Like a Computer Scientist: Learning with Python, Interactive Edition (free)](http://interactivepython.org/courselib/static/thinkcspy/index.html) — **if you're relatively new to programing, this is an especially good fit for you**
 
 If you like taking online courses with a group, I’ve heard this one is good:
 
-  * [Coursera: An Introduction to Interactive Programming in Python (free)](https://www.coursera.org/learn/interactive-python-1)
+ * [Coursera: An Introduction to Interactive Programming in Python (free)](https://www.coursera.org/learn/interactive-python-1)
 
 ### A good IDE will help you be more productive!
 
 A lot of people think when you're first learning a language like Python, you'll grok it best if you use a basic text editor instead of an IDE. Still, maybe you are just here to learn a little Python for some projects at work, and you just need to get some things done. An IDE might help you.
 
-  * I strongly prefer JetBrains [PyCharm](https://www.jetbrains.com/pycharm/). So do most people at my company now. And many many people the world over … PyCharm does incredible things with your Python code. 
-  * There's [a free Community Edition you can use immediately](https://www.jetbrains.com/pycharm/download/). We have Professional Edition licenses, so get your hands on one of those as soon as you can!
-  * (BY THE WAY, I’ve been down the path of highly customizable text editors (emacs, then vim, then Sublime Text in vim mode). I hate Eclipse and many other IDEs. Yet, I strongly recommend you check out PyCharm please. If you give it a try for a few weeks, you might just stick with it.)
-  * (AND ON ANOTHER SIDE NOTE, vim keybindings are awesome, and [http://vim-adventures.com/](http://vim-adventures.com/) is a great way to learn if you wanna. But just because you like vim keybindings doesn’t mean you’re stuck with vim or stuck with Sublime Text. Turns out PyCharm has some of the best vim emulation on the market. (This is also true of IntelliJ and all other JetBrains IDEs))
+ * I strongly prefer JetBrains [PyCharm](https://www.jetbrains.com/pycharm/). So do most people at my company now. And many many people the world over … PyCharm does incredible things with your Python code. 
+ * There's [a free Community Edition you can use immediately](https://www.jetbrains.com/pycharm/download/). We have Professional Edition licenses, so get your hands on one of those as soon as you can!
+ 
+(Another side note on text editors vs. IDEs. Even if you like the lean text editor side of things ([vim](http://vim-adventures.com/) or Emacs, Sublime Text...) Well, I still think you should check out PyCharm. I hated disliked IDEs for a long time until I tried PyCharm...)
 
 ### Interactive tools for understanding Python better
 
 Please try at least one of these out. Interactive tools can really deepen your understanding and accelerate your learning. A huge strength of Python is its interactivity ... Use it! 
 
-  * "[Python Tutor](http://pythontutor.com/visualize.html), created by [Philip Guo](http://www.pgbovine.net/), helps people overcome a fundamental barrier to learning programming: understanding what happens as the computer executes each line of a program's source code."
+ * "[Python Tutor](http://pythontutor.com/visualize.html), created by [Philip Guo](http://www.pgbovine.net/), helps people overcome a fundamental barrier to learning programming: understanding what happens as the computer executes each line of a program's source code."
   * It's amazing.
   * It’s also not just Python. Various languages supported
-  * [ipython and ipython notebook - my own notes on it - you should be using these!!!](https://docs.google.com/document/d/1B-pK6Kt5AlgJ-mal_p4Bu9_-KJBys9hAALtwOm-LG7Q/pub) 
-  * Use PyCharm's debugger, it is excellent. [JetBrains PyCharm docs: Debugging](https://www.jetbrains.com/pycharm/help/debugging.html)
+ * [ipython and ipython notebook - my own notes on it - you should be using these!!!](https://docs.google.com/document/d/1B-pK6Kt5AlgJ-mal_p4Bu9_-KJBys9hAALtwOm-LG7Q/pub) 
+ * Use PyCharm's debugger, it is excellent. [JetBrains PyCharm docs: Debugging](https://www.jetbrains.com/pycharm/help/debugging.html)
 
 ### Avoiding common mistakes and pitfalls
 
@@ -86,9 +86,10 @@ Are you intermediate or advanced? If you're not sure, one way to check:
 
 You don’t need to read style guides until you’re beyond beginner status. At some point that will become very valuable and helpful to you :)
 
-  * There are two main style guides:
-  1. [The Hitchhiker's Guide to Python](http://docs.python-guide.org/en/latest/) – opinionated guide by the legendary Kenneth Reitz of [requests](https://github.com/kennethreitz/requests]) fame
-  2. [Google Python Style Guide](https://google.github.io/styleguide/pyguide.html) – perhaps the most widely-used Python style guide
+There are two main style guides:
+
+1. [The Hitchhiker's Guide to Python](http://docs.python-guide.org/en/latest/) – opinionated guide by the legendary Kenneth Reitz of [requests](https://github.com/kennethreitz/requests]) fame
+2. [Google Python Style Guide](https://google.github.io/styleguide/pyguide.html) – perhaps the most widely-used Python style guide
 
 ### Special topics
 
@@ -112,10 +113,10 @@ Not comprehensive, but when I brain-dumped some really good things to know about
 
 You're probably going to use libraries to do a lot of things. When you have a new scenario and you are thinking what should I use... You should:
 
-  1. Ask your community :D
-  2. check [Hitchhiker's Guide to Python: Scenario Guide for Python Applications](http://docs.python-guide.org/en/latest/%23scenario-guide-for-python-applications)
-  3. check [Full Stack Python](http://www.fullstackpython.com/table-of-contents.html), another comprehensive but carefully curated guide, full of useful context, advice, etc.
-  4. check [Awesome Python](https://github.com/vinta/awesome-python), "A curated list of awesome Python frameworks, libraries, software and resources" — or the [Pythonidae](https://github.com/svaksha/pythonidae)  list
+1. Ask your community :D
+2. check [Hitchhiker's Guide to Python: Scenario Guide for Python Applications](http://docs.python-guide.org/en/latest/%23scenario-guide-for-python-applications)
+3. check [Full Stack Python](http://www.fullstackpython.com/table-of-contents.html), another comprehensive but carefully curated guide, full of useful context, advice, etc.
+4. check [Awesome Python](https://github.com/vinta/awesome-python), "A curated list of awesome Python frameworks, libraries, software and resources" — or the [Pythonidae](https://github.com/svaksha/pythonidae)  list
 
 ### Fast and scalable Python
 
