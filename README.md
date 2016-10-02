@@ -136,4 +136,4 @@ For Python projects that need some horizontal scale-out and fast performance, th
 
 #### Map/Reduce and beyond (Functional Reactive Programming)
 
-Or maybe not worker-and-queue. I've maintained some pretty iffy worker-and-queue systems. These days I reach for [Apache Spark](http://spark.apache.org) instead. Batch and stream processing.
+Or maybe not worker-and-queue. I've maintained some pretty iffy worker-and-queue systems. These days I reach for [Apache Spark](http://spark.apache.org) instead. Batch and stream processing, in a portable fashion, with a very declarative and maintainable API (thanks to [Functional Reactive Programming](https://gist.github.com/staltz/868e7e9bc2a7b8c1f754)).
