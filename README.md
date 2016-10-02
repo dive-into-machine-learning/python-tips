@@ -2,7 +2,7 @@
 
 Hi! You're a beginner or intermediate, or even advanced. You want to learn mroe Python. There's so much out there: do not fret. This is a curated list of resources. I've picked and chosen. And you should go ahead and pick and choose further :)
 
-I agree with [_Learn Ruby the Hard Way_](https://learnrubythehardway.org/book/preface.html) that the "hard way" — learning by doing, learning by diving right in — is actually the easy way. So no matter your background, newbie programmer or advanced Pythonista, take a look and learn something new.
+I agree with [_Learn Ruby the Hard Way_](https://learnrubythehardway.org/book/preface.html) that the "hard way" — learning by doing — diving right in — is actually the easy way. So no matter your background, newbie programmer or advanced Pythonista, take a look and learn something new.
 
 ## Starters
 
@@ -12,8 +12,8 @@ If you have not installed Python yet, you need to pick a version of Python and t
 
 It's also a good idea to debunk the myths you may have heard about Python.
 
-[PayPal Engineering Blog: 10 Myths of Enterprise Python](https://www.paypal-engineering.com/2014/12/10/10-myths-of-enterprise-python/) (5-10 minute read)  
-(And more testimonies: [https://www.python.org/success-stories/](https://www.python.org/success-stories/)
+* [PayPal Engineering Blog: 10 Myths of Enterprise Python](https://www.paypal-engineering.com/2014/12/10/10-myths-of-enterprise-python/) (5-10 minute read)  
+* (And more testimonies: [https://www.python.org/success-stories/](https://www.python.org/success-stories/)
 
 ![](http://imgs.xkcd.com/comics/python.png)
 
@@ -80,7 +80,7 @@ Free book (PDF): [How to make mistakes in Python](http://www.oreilly.com/program
 One of Python's biggest strengths is its testability. Test-Driven Development and Python go together happily.
 
   1. start with this concise post, [http://docs.python-guide.org/en/latest/writing/tests/#the-basics](http://docs.python-guide.org/en/latest/writing/tests/%23the-basics)
-  2. then try this comprehensive post. It's about unit testing with Python's Standard Library unit test package, but leads you up to introducing pytest -- the best runner for any kind of tests (you can get started on that right away). It’s also the best framework for writing data-driven tests, when you’re ready to get gung-ho about testing your code :D
+  2. then try this comprehensive post. It's about unit testing with Python's Standard Library unit test package, but leads you up to introducing pytest — the best runner for any kind of tests (you can get started on that right away). It’s also the best framework for writing data-driven tests, when you’re ready to get gung-ho about testing your code :D
   3. [https://www.jeffknupp.com/blog/2013/12/09/improve-your-python-understanding-unit-testing/](https://www.jeffknupp.com/blog/2013/12/09/improve-your-python-understanding-unit-testing/)
   4. When you’re ready, move onto pytest, definitely :) [pytest.md](pytest.md)
 
@@ -122,7 +122,7 @@ You don’t need to read style guides until you’re beyond beginner status. At 
 
 For completely out-of-the-box Python, concurrency is slightly complicated (because of the GIL). However, it's not some no-man's-land or something. You don't need to rediscover the solution on your own. The best single summary I've seen of (preferred) concurrency options – 
 
-[https://www.paypal-engineering.com/2014/12/10/10-myths-of-enterprise-python/#python-lacks-concurrency](https://www.paypal-engineering.com/2014/12/10/10-myths-of-enterprise-python/%23python-lacks-concurrency)
+[Myth: Python Lacks Concurrency](https://www.paypal-engineering.com/2014/12/10/10-myths-of-enterprise-python/%23python-lacks-concurrency)
 
 but also, is concurrency exactly what you want? Maybe it is, but maybe a worker-and-queue option is more like what you want...
 
@@ -130,9 +130,8 @@ but also, is concurrency exactly what you want? Maybe it is, but maybe a worker-
 
 For Python projects that need some horizontal scale-out and fast performance, there's a good chance a worker-and-queue setup might work better for you, compared with single-computer concurrency. There's no question: Celery is the way to go for worker-and-queue systems in Python --
 
-[http://docs.celeryproject.org/en/latest/](http://docs.celeryproject.org/en/latest/)
+[Celery](http://docs.celeryproject.org/en/latest/)
 
 #### Map/Reduce and beyond (Functional Reactive Programming)
 
-You may also consider Functional Reactive Programming, such as with Apache Spark. 
-
+Or maybe not worker-and-queue. I've maintained some pretty iffy worker-and-queue systems. These days I reach for [Apache Spark](http://spark.apache.org) instead. Batch and stream processing.
