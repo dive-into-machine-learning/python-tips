@@ -62,15 +62,6 @@ Please try at least one of these out. Interactive tools can really deepen your u
   * [ipython and ipython notebook - my own notes on it - you should be using these!!!](https://docs.google.com/document/d/1B-pK6Kt5AlgJ-mal_p4Bu9_-KJBys9hAALtwOm-LG7Q/pub) 
   * Use PyCharm's debugger, it is excellent. [JetBrains PyCharm docs: Debugging](https://www.jetbrains.com/pycharm/help/debugging.html)
 
-### Scenario guide
-
-You're probably going to use libraries to do a lot of things. When you have a new scenario and you are thinking what should I use... You should:
-
-  1. Ask your community :D
-  2. check [Hitchhiker's Guide to Python: Scenario Guide for Python Applications](http://docs.python-guide.org/en/latest/%23scenario-guide-for-python-applications)
-  3. check [Full Stack Python](http://www.fullstackpython.com/table-of-contents.html), another comprehensive but carefully curated guide, full of useful context, advice, etc.
-  4. check [Awesome Python](https://github.com/vinta/awesome-python), "A curated list of awesome Python frameworks, libraries, software and resources" — or the [Pythonidae](https://github.com/svaksha/pythonidae)  list
-
 ### Avoiding common mistakes and pitfalls
 
 Free book (PDF): [How to make mistakes in Python](http://www.oreilly.com/programming/free/files/how-to-make-mistakes-in-python.pdf)
@@ -81,7 +72,7 @@ One of Python's biggest strengths is its testability. Test-Driven Development an
 
   1. start with this concise post, [http://docs.python-guide.org/en/latest/writing/tests/#the-basics](http://docs.python-guide.org/en/latest/writing/tests/%23the-basics)
   2. then try this comprehensive post. It's about unit testing with Python's Standard Library unit test package, but leads you up to introducing pytest — the best runner for any kind of tests (you can get started on that right away). It’s also the best framework for writing data-driven tests, when you’re ready to get gung-ho about testing your code :D
-  3. [https://www.jeffknupp.com/blog/2013/12/09/improve-your-python-understanding-unit-testing/](https://www.jeffknupp.com/blog/2013/12/09/improve-your-python-understanding-unit-testing/)
+  3. [Jeff Knupp: Improve your Python Understanding - Unit Testing](https://www.jeffknupp.com/blog/2013/12/09/improve-your-python-understanding-unit-testing/)
   4. When you’re ready, move onto pytest, definitely :) [pytest.md](pytest.md)
 
 ## For intermediate and advanced Pythonistas
@@ -89,6 +80,7 @@ One of Python's biggest strengths is its testability. Test-Driven Development an
 Are you intermediate or advanced? If you're not sure, one way to check:
 
   * Ask yourself [Python Interview Questions](https://www.reddit.com/r/Python/comments/1knw7z/python_interview_questions) and see if you know them. If you don't, try and learn more
+  * Read some of ["Good to Great Python Reads"](http://jessenoller.com/good-to-great-python-reads/), a nice index of great Python reading (good to Ctrl+F for topics)
 
 ### Style guides
 
@@ -100,21 +92,30 @@ You don’t need to read style guides until you’re beyond beginner status. At 
 
 ### Special topics
 
-  * Unicode is pretty sad in Python 2.7.
-  * [Unicode in Python, completely demystified](http://farmdev.com/talks/unicode/) (weird presentation format: just press spacebar to proceed through slides)
-  * [https://pythonhosted.org/kitchen/unicode-frustrations.html](https://pythonhosted.org/kitchen/unicode-frustrations.html)  
-  * Functional programming, list comprehensions, etc.
-  * [Python List Comprehensions: Explained Visually](http://treyhunner.com/2015/12/python-list-comprehensions-now-in-color/)
-  * [Decorators & functional Python](http://brianholdefehr.com/decorators-and-functional-python)
-  * ["Good to Great Python Reads"](http://jessenoller.com/good-to-great-python-reads/) is a nice index of great Python reading (good to Ctrl+F for topics)
-  * Security, with this bent: learning general skills to get into InfoSec or AppSec
-  * Step 1, listen to this: [Talk Python to Me #37: Python, Cybersecurity, and Penetration Testing](https://talkpython.fm/episodes/show/37/python-cybersecurity-and-penetration-testing) 
-  * Ignore the book Violent Python, I have heard the Python code is very bad :)
-  * [Gray Hat Python (book 1/2)](http://www.amazon.com/Gray-Hat-Python-Programming-Engineers/dp/1593271921) 
-  * [Black Hat Python (book 2/2)](http://www.amazon.com/gp/product/1593275900/])
-  * [MartinFowler.com: "Web Security Basics" (regardless of programming language)](http://martinfowler.com/articles/web-security-basics.html)
-  * There’s more, just ask me.
-  * Machine Learning! Here’s my guide:  [https://github.com/hangtwenty/dive-into-machine-learning](https://github.com/hangtwenty/dive-into-machine-learning) 
+Not comprehensive, but when I brain-dumped some really good things to know about, I wrote down these subjects.
+
+- Unicode is pretty sad in Python 2, so if you're using Python 2 you should learn the gotchas and fixes ASAP...
+ - [Unicode in Python, completely demystified](http://farmdev.com/talks/unicode/) (weird presentation format, but, you just press spacebar to proceed through slides)
+ - [unicode frustrations](https://pythonhosted.org/kitchen/unicode-frustrations.html)  
+- Functional programming, list comprehensions, etc.
+ - [Python List Comprehensions: Explained Visually](http://treyhunner.com/2015/12/python-list-comprehensions-now-in-color/)
+ - [Decorators & functional Python](http://brianholdefehr.com/decorators-and-functional-python)
+
+- Security, with this bent: learning general skills to get into InfoSec or AppSecz
+ - Step 1, listen to this: [Talk Python to Me #37: Python, Cybersecurity, and Penetration Testing](https://talkpython.fm/episodes/show/37/python-cybersecurity-and-penetration-testing) 
+ - Step 2, read [Gray Hat Python (book 1/2)](http://www.amazon.com/Gray-Hat-Python-Programming-Engineers/dp/1593271921)  and/or [Black Hat Python (book 2/2)](http://www.amazon.com/gp/product/1593275900/])
+ - [MartinFowler.com: "Web Security Basics" (regardless of programming language)](http://martinfowler.com/articles/web-security-basics.html)
+- Machine Learning! Here’s my guide:  [Dive into Machine Learning](https://github.com/hangtwenty/dive-into-machine-learning) 
+
+
+#### Scenario guide
+
+You're probably going to use libraries to do a lot of things. When you have a new scenario and you are thinking what should I use... You should:
+
+  1. Ask your community :D
+  2. check [Hitchhiker's Guide to Python: Scenario Guide for Python Applications](http://docs.python-guide.org/en/latest/%23scenario-guide-for-python-applications)
+  3. check [Full Stack Python](http://www.fullstackpython.com/table-of-contents.html), another comprehensive but carefully curated guide, full of useful context, advice, etc.
+  4. check [Awesome Python](https://github.com/vinta/awesome-python), "A curated list of awesome Python frameworks, libraries, software and resources" — or the [Pythonidae](https://github.com/svaksha/pythonidae)  list
 
 ### Fast and scalable Python
 
