@@ -118,15 +118,15 @@ You're probably going to use libraries to do a lot of things. When you have a ne
 3. check [Full Stack Python](http://www.fullstackpython.com/table-of-contents.html), another comprehensive but carefully curated guide, full of useful context, advice, etc.
 4. check [Awesome Python](https://github.com/vinta/awesome-python), "A curated list of awesome Python frameworks, libraries, software and resources" — or the [Pythonidae](https://github.com/svaksha/pythonidae)  list
 
-### Fast and scalable Python
+### Fast and scalable Python - Concurrency, Parallelism
 
-#### Concurrency
+#### Concurrency?
 
-For completely out-of-the-box Python, concurrency is slightly complicated (because of the GIL). However, it's not some no-man's-land or something. You don't need to rediscover the solution on your own. The best single summary I've seen of (preferred) concurrency options – 
+For completely out-of-the-box Python, concurrency is slightly complicated (because of the [GIL](https://wiki.python.org/moin/GlobalInterpreterLock)). However, it's not some no-man's-land or something. You don't need to rediscover the solution on your own. The best single summary I've seen of (preferred) concurrency options – 
 
-[Myth: Python Lacks Concurrency](https://www.paypal-engineering.com/2014/12/10/10-myths-of-enterprise-python/%23python-lacks-concurrency)
+[Myth: Python Lacks Concurrency](https://www.paypal-engineering.com/2014/12/10/10-myths-of-enterprise-python/#python-lacks-concurrency)
 
-but also, is concurrency exactly what you want? Maybe it is, but maybe a worker-and-queue option is more like what you want...
+There are loads of options... Greenlet, Twisted. I must say, while I've used those, I tend to go for parallelism with Celery if it makes sense. While it's a different solution, it can be relevant to some of the same problems you might be trying to solve.
 
 #### Parallelism/ distributed task queue
 
