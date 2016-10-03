@@ -1,3 +1,5 @@
+# Learn More Python
+
 Hi! You're a beginner or intermediate, or even advanced. You want to learn more Python. There's so much out there: do not fret. This is a curated list of resources. I've picked and chosen. And you should go ahead and pick and choose further :)
 
 I agree with [_Learn Ruby the Hard Way_](https://learnrubythehardway.org/book/preface.html) that the "hard way" — learning by doing — diving right in — is actually the easy way. So no matter your background, newbie programmer or advanced Pythonista, take a look and learn something new.
