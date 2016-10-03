@@ -48,7 +48,7 @@ If you like taking online courses with a group, I’ve heard this one is good:
 A lot of people think when you're first learning a language like Python, you'll grok it best if you use a basic text editor instead of an IDE. Still, maybe you are just here to learn a little Python for some projects at work, and you just need to get some things done. An IDE might help you.
 
  * I strongly prefer JetBrains [PyCharm](https://www.jetbrains.com/pycharm/). So do most people at my company now. And many many people the world over … PyCharm does incredible things with your Python code. 
- * There's [a free Community Edition you can use immediately](https://www.jetbrains.com/pycharm/download/). We have Professional Edition licenses, so get your hands on one of those as soon as you can!
+ * There's [a free Community Edition you can use immediately](https://www.jetbrains.com/pycharm/download/).
  
 (Another side note on text editors vs. IDEs. Even if you like the lean text editor side of things ([vim](http://vim-adventures.com/) or Emacs, Sublime Text...) Well, I still think you should check out PyCharm. I hated disliked IDEs for a long time until I tried PyCharm...)
 
