@@ -8,7 +8,7 @@ py.test - running your existing tests! and also, how to write new tests with pyt
 
 New? Head to external documentation
 
-pytest's documentation is excellent and it is better than any resource we could provide. start there 
+pytest's documentation is excellent. Start there:
 
   * [Start with the official pytest documentation ](http://pytest.org/) Peruse it. Bookmark it. Refer to it frequently.
 
@@ -54,13 +54,13 @@ import pytest; pytest.set_trace()
 
 Lastly, note that you can also use ipython's suped-up debugger ipdb if you'd like. Drop the regular ipdb.set_trace function in your code:
 
-import ipdb; ipdb.set_trace()
+    import ipdb; ipdb.set_trace()
 
 Now you'll have to run py.test with the -s/--capture=no option.
+ 
+    py.test spam.py --capture=no
 
-py.test spam.py --capture=no
-
-py.test spam.py -s  # for short
+    py.test spam.py -s  # for short
 
 And debug away.
 
@@ -98,45 +98,35 @@ _________________ TestSpecialisedExplanations.test_eq_set __________________
 
  
 
-self = <failure_demo.TestSpecialisedExplanations object at 0x1434310>
+    self = <failure_demo.TestSpecialisedExplanations object at 0x1434310>
 
- 
+        def test_eq_set(self):
+    >       assert set([0, 10, 11, 12]) == set([0, 20, 21])
+    E       assert set([0, 10, 11, 12]) == set([0, 20, 21])
+    E             Extra items in the left set:
+    E         10
+    E         11
+    E         12
+    E             Extra items in the right set:
 
-    def test_eq_set(self):
+    E         20
 
->       assert set([0, 10, 11, 12]) == set([0, 20, 21])
-
-E       assert set([0, 10, 11, 12]) == set([0, 20, 21])
-
-E             Extra items in the left set:
-
-E         10
-
-E         11
-
-E         12
-
-E             Extra items in the right set:
-
-E         20
-
-E         21
+    E         21
 
 #### Making assertions about exceptions with pytest.raises
 
-pytest is compatible with stdlib's unittest. It plays just fine with the methods on unittest.TestCase like assertEquals and so on, so we don't need to go back through old tests and change those.
+pytest is compatible with stdlib's unittest. It plays just fine with the methods on unittest.TestCase like assertEquals and so on, so you don't need to go back through old tests and change those.
 
 There is one special context to note. If you want to assert that executing some code will raise a certain kind of exception, use pytest.raises ([pytest docs: pytest.raises](http://pytest.org/latest/assert.html%23assertions-about-expected-exceptions)). It uses a context manager (with...) and it looks like this:
 
 Asserting that an exception is raised
 
-import pytest
+    import pytest
 
-with pytest.raises(ZeroDivisionError):
+    with pytest.raises(ZeroDivisionError):
+        1 / 0
 
-    1 / 0
-
-Places where we used to use unittest.TestCase's assertRaises method may need to be updated to pytest.raises.
+Places where you used to use unittest.TestCase's assertRaises method may need to be updated to pytest.raises, not sure.
 
 #### Documentation
 
