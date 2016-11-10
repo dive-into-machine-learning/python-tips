@@ -35,7 +35,7 @@ Keep these handy.
 If you like self-guided courses, try one of these:
 
  * [RealPython](https://realpython.com/): "Real Python teaches programming and web development through hands-on, interesting examples that are useful and fun!" (paid)
- * or _[Dive into Python](http://www.diveinto.org/python3/)_ (the classic). (Note that [Dive into Python 3](http://www.diveinto.org/python3/) only covers new & advanced features in Python 3 - not the language as a whole. Don't start there.) (free)
+ * or _[Dive into Python](http://www.diveinto.org/python3/)_ (the classic). (Note that [Dive into Python 3](http://www.diveinto.org/python3/) only covers new & advanced features in Python 3 - not the language as a whole. Don't start there if you're new to Python) (free)
  * or [Google's Python Introduction course (free)](https://developers.google.com/edu/python/)
  * or [How to Think Like a Computer Scientist: Learning with Python, Interactive Edition (free)](http://interactivepython.org/courselib/static/thinkcspy/index.html) — **if you're relatively new to programing, this is an especially good fit for you**
 
@@ -119,6 +119,10 @@ You're probably going to use libraries to do a lot of things. When you have a ne
 4. check [Awesome Python](https://github.com/vinta/awesome-python), "A curated list of awesome Python frameworks, libraries, software and resources" — or the [Pythonidae](https://github.com/svaksha/pythonidae)  list
 
 ### Fast and scalable Python - Concurrency, Parallelism
+
+#### Nice cheat sheet on various non-beginner topics in Python 3
+
+https://www.pythonsheets.com/
 
 #### Concurrency?
 
