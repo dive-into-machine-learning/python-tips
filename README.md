@@ -6,7 +6,7 @@ A note on approach: I agree with [_Learn Ruby the Hard Way_](https://learnrubyth
 
 ## Starters
 
-The first key is Don't Panic. You can learn most by hacking. 
+The first key is Don't Panic. You can learn most by hands-on experience.
 
 If you have not installed Python yet, you need to pick a version of Python and then install. For both of these subjects, you should read [_Hitchhiker's Guide to Python_](http://docs.python-guide.org/en/latest/). 
 
