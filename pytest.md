@@ -1,12 +1,10 @@
-TODO: fix formatting
 
-----
 
-py.test
+# py.test
 
 py.test - running your existing tests! and also, how to write new tests with pytest
 
-New? Head to external documentation
+## New? Head to external documentation, first
 
 pytest's documentation is excellent. Start there:
 
@@ -18,15 +16,16 @@ I would also recommend reading the Hitchhiker's Guide to Python sections on Tes
   1. [The Basics](http://docs.python-guide.org/en/latest/writing/tests/%23the-basics)
   2. [Tools](http://docs.python-guide.org/en/latest/writing/tests/%23tools)
 
-## Running tests with pytest
-
-Everything you need to get up and running and start reaping the benefits of using pytest as a test runner
-
-You should do this, because pytest will run tests based on Python's unittest library, as well as pytest-style and nose-style tests. There's no reason to deprive yourself of the great benefits the pytest test runner offers.
+## Tips re: running tests with pytest
 
 ### Installation
 
+```
 pip install pytest
+```
+
+You run tests with pytest even if you are using unittest or nosetest in your suite. The pytest runner is great in itself... There's no reason to deprive yourself of the great benefits the pytest test runner offers.
+
 
 ### Usage and invocations
 
@@ -36,9 +35,9 @@ The [official documentation on usage and invocations](http://pytest.org/latest/u
 
 Must specially call out this excellent feature:
 
---showlocals
-
+```
 -l, --showlocals    #  show [values of all] locals in tracebacks (disabled by default).
+```
 
 ### Using pdb in conjunction with py.test
 
@@ -46,11 +45,15 @@ In many cases, you'd want to drop into pdb (Python's built-in debugger) in order
 
 If, however, you want to drop into pdb so you can actually interact, py.test makes it easy. There are two ways to do it. First, just call py.test with the --pdb argument:
 
+```
 py.test spam.py --pdb
+```
 
 However, if you're writing a browser test, and the failure is actually an assertion failure, you may already be past the point where the browser is automatically quit, by the time you drop into pdb. That's not great, because then you can't interact with the browser, which you might need to do. So if you need more control, just insert the following line, at the point where you want to drop into pdb; typically, the line above whatever line is causing your problem.
 
+```
 import pytest; pytest.set_trace()
+```
 
 Lastly, note that you can also use ipython's suped-up debugger ipdb if you'd like. Drop the regular ipdb.set_trace function in your code:
 
@@ -64,7 +67,6 @@ Now you'll have to run py.test with the -s/--capture=no option.
 
 And debug away.
 
-* * *
 
 ### Integration with your IDE
 
@@ -75,6 +77,8 @@ PyCharm has very good native support for py.test. See the [official documentatio
 #### Eclipse PyDev integration
 
 See the external document here: [Eclipse PyDev integration](http://pydev.org/manual_adv_pyunit.html).
+
+----
 
 # Writing tests with pytest
 
@@ -92,8 +96,8 @@ The basic introduction to py.test explains a lot. One of the things you'll notic
 
 pytest supports true python assert statements (it's a mystery why the stdlib package doesn't!). In the event of an assertion failure, pytest inspects the assertion and gives you all sorts of great information appropriate to the type of comparison you're evaluating.[pytest does awesome reporting in general](http://pytest.org/latest/example/reportingdemo.html%23tbreportdemo), for example showing you a diff between two collections:
 
+```
 failure_demo.py:69: AssertionError
-
 _________________ TestSpecialisedExplanations.test_eq_set __________________
 
  
@@ -112,6 +116,7 @@ _________________ TestSpecialisedExplanations.test_eq_set __________________
     E         20
 
     E         21
+```
 
 #### Making assertions about exceptions with pytest.raises
 
@@ -134,9 +139,7 @@ Places where you used to use unittest.TestCase's assertRaises method may need to
   * [pytest docs: pytest.raises](http://pytest.org/latest/assert.html%23assertions-about-expected-exceptions) (replacement for unittest.TestCase.assertRaises)
   * [Python docs: assert](http://docs.python.org/2/reference/simple_stmts.html%23the-assert-statement)
 
-## Data-driven testing
-
-TODO I need to throw my demo repository up somewhere. But here are some documentation links.
+## Use parametrize, it's a game changer
 
   * py.test
   *  doctests ([official Python documentation](https://docs.python.org/2/library/doctest.html), [official py.test documentation](http://pytest.org/latest/doctest.html)
