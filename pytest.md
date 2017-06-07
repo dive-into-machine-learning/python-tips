@@ -1,4 +1,4 @@
-
+**UPDATE:** Your best source will be [this book on pytest](https://pragprog.com/book/bopytest/python-testing-with-pytest). Please bookmark that for later even if you read this little doc!
 
 # py.test
 
@@ -157,4 +157,3 @@ Or expect confusion, sooner or later!
 [http://pytest.org/latest/customize.html](http://pytest.org/latest/customize.html)
 
 tox.ini can handle all your needs, and it is the simplest solution that will work with the most tools.
-
