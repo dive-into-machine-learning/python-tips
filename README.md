@@ -141,3 +141,21 @@ For Python projects that need some horizontal scale-out and fast performance, th
 #### Map/Reduce and beyond (Functional Reactive Programming)
 
 Or maybe not worker-and-queue. I've maintained some pretty iffy worker-and-queue systems. These days I reach for [Apache Spark](http://spark.apache.org) instead. Batch and stream processing, in a portable fashion, with a very declarative and maintainable API (thanks to [Functional Reactive Programming](https://gist.github.com/staltz/868e7e9bc2a7b8c1f754)).
+
+## Further Reading
+
+Use these links to further expand your knowledge base.
+
+[r/LearnPython Wiki](https://www.reddit.com/r/learnpython/wiki/index) - Plethora of useful resources including video lectures, useful tools, and communities for learning competetive programming to keep you on an edge.
+
+[Learn Python the Hard Way (Book)](https://learnpythonthehardway.org/book/) - This is an excellent beginner programmer’s guide to Python. It covers “hello world” from the console to the web.
+
+[svaksha's python resources](https://github.com/svaksha/pythonidae/blob/master/Resources.md) - More books, a beginner's guide to Git, blog posts on Python/CS/Data Science, videos, and workshop tutorials.
+
+[Hitchhikker's Guide to Python learning resources](http://docs.python-guide.org/en/latest/intro/learning/) - Links to good python books/guides. This book itself is a practical approach to learning Python. It assumes you already know the basics, and teaches you when & how to use Python. Read this book for a more example-driven approach.
+
+[Think Like A Computer Scientist](http://interactivepython.org/runestone/static/thinkcspy/index.html) - Interactive python guide. Also includes programming a GUI, Recursion, Classes & Objects, and includes interesting game examples.
+
+If you're coming from Java, you should [watch this](https://www.youtube.com/watch?v=OSGv2VnC0go) video for sure and/or grab [this ~70-page book](https://jeffknupp.com/writing-idiomatic-python-ebook/)
+
+Writing a program and none of the guides/docs are helping out? Ask real programmers for help on [Stackoverflow](http://stackoverflow.com/documentation/python/topics) 
