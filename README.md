@@ -96,16 +96,16 @@ There are two main style guides:
 Not comprehensive, but when I brain-dumped some really good things to know about, I wrote down these subjects.
 
 - Unicode is pretty sad in Python 2, so if you're using Python 2 you should learn the gotchas and fixes ASAP...
- - [Unicode in Python, completely demystified](http://farmdev.com/talks/unicode/) (weird presentation format, but, you just press spacebar to proceed through slides)
- - [unicode frustrations](https://pythonhosted.org/kitchen/unicode-frustrations.html)  
+    - [Unicode in Python, completely demystified](http://farmdev.com/talks/unicode/) (weird presentation format, but, you just press spacebar to proceed through slides)
+    - [unicode frustrations](https://pythonhosted.org/kitchen/unicode-frustrations.html)  
 - Functional programming, list comprehensions, etc.
- - [Python List Comprehensions: Explained Visually](http://treyhunner.com/2015/12/python-list-comprehensions-now-in-color/)
- - [Decorators & functional Python](http://brianholdefehr.com/decorators-and-functional-python)
+    - [Python List Comprehensions: Explained Visually](http://treyhunner.com/2015/12/python-list-comprehensions-now-in-color/)
+    - [Decorators & functional Python](http://brianholdefehr.com/decorators-and-functional-python)
 
 - Security, with this bent: learning general skills to get into InfoSec or AppSecz
- - Step 1, listen to this: [Talk Python to Me #37: Python, Cybersecurity, and Penetration Testing](https://talkpython.fm/episodes/show/37/python-cybersecurity-and-penetration-testing) 
- - Step 2, read [Gray Hat Python (book 1/2)](http://www.amazon.com/Gray-Hat-Python-Programming-Engineers/dp/1593271921)  and/or [Black Hat Python (book 2/2)](http://www.amazon.com/gp/product/1593275900/])
- - [MartinFowler.com: "Web Security Basics" (regardless of programming language)](http://martinfowler.com/articles/web-security-basics.html)
+    - Step 1, listen to this: [Talk Python to Me #37: Python, Cybersecurity, and Penetration Testing](https://talkpython.fm/episodes/show/37/python-cybersecurity-and-penetration-testing) 
+    - Step 2, read [Gray Hat Python (book 1/2)](http://www.amazon.com/Gray-Hat-Python-Programming-Engineers/dp/1593271921)  and/or [Black Hat Python (book 2/2)](http://www.amazon.com/gp/product/1593275900/])
+    - [MartinFowler.com: "Web Security Basics" (regardless of programming language)](http://martinfowler.com/articles/web-security-basics.html)
 - Machine Learning! Here’s my guide:  [Dive into Machine Learning](https://github.com/hangtwenty/dive-into-machine-learning) 
 
 
