@@ -102,7 +102,7 @@ Not comprehensive, but when I brain-dumped some really good things to know about
     - [Python List Comprehensions: Explained Visually](http://treyhunner.com/2015/12/python-list-comprehensions-now-in-color/)
     - [Decorators & functional Python](http://brianholdefehr.com/decorators-and-functional-python)
 
-- Security, with this bent: learning general skills to get into InfoSec or AppSecz
+- Security, with this bent: learning general skills to get into InfoSec or AppSec
     - Step 1, listen to this: [Talk Python to Me #37: Python, Cybersecurity, and Penetration Testing](https://talkpython.fm/episodes/show/37/python-cybersecurity-and-penetration-testing) 
     - Step 2, read [Gray Hat Python (book 1/2)](http://www.amazon.com/Gray-Hat-Python-Programming-Engineers/dp/1593271921)  and/or [Black Hat Python (book 2/2)](http://www.amazon.com/gp/product/1593275900/])
     - [MartinFowler.com: "Web Security Basics" (regardless of programming language)](http://martinfowler.com/articles/web-security-basics.html)
