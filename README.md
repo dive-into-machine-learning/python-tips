@@ -50,16 +50,12 @@ A lot of people think when you're first learning a language like Python, you'll 
  * I strongly prefer JetBrains [PyCharm](https://www.jetbrains.com/pycharm/). So do most people at my company now. And many many people the world over … PyCharm does incredible things with your Python code. 
  * There's [a free Community Edition you can use immediately](https://www.jetbrains.com/pycharm/download/).
  
-(Another side note on text editors vs. IDEs. Even if you like the lean text editor side of things ([vim](http://vim-adventures.com/) or Emacs, Sublime Text...) Well, I still think you should check out PyCharm. I hated disliked IDEs for a long time until I tried PyCharm...)
+(Another side note on text editors vs. IDEs. Even if you like the lean text editor side of things - [vim](http://vim-adventures.com/) or Emacs, Sublime Text... Well, I still think you should check out PyCharm. I hated disliked IDEs for a long time until I tried PyCharm. Vim users, take a look at ["Epic Review of PyCharm [...] From a Vim User's Perspective"](https://andrewbrookins.com/tech/one-year-later-an-epic-review-of-pycharm-2-7-from-a-vim-users-perspective-older2/) (and ["Part 2"](https://andrewbrookins.com/tech/one-year-later-an-epic-review-of-pycharm-2-7-from-a-vim-users-perspective/). The vim emulation is solid, I use it every day.)
 
 ### Interactive tools for understanding Python better
 
-Please try at least one of these out. Interactive tools can really deepen your understanding and accelerate your learning. A huge strength of Python is its interactivity ... Use it! 
-
- * "[Python Tutor](http://pythontutor.com/visualize.html), created by [Philip Guo](http://www.pgbovine.net/), helps people overcome a fundamental barrier to learning programming: understanding what happens as the computer executes each line of a program's source code."
-  * It's amazing.
-  * It’s also not just Python. Various languages supported
- * [ipython and ipython notebook - my own notes on it - you should be using these!!!](https://docs.google.com/document/d/1B-pK6Kt5AlgJ-mal_p4Bu9_-KJBys9hAALtwOm-LG7Q/pub) 
+ * [ipython and ipython notebook - you should be using these!!!](https://docs.google.com/document/d/1B-pK6Kt5AlgJ-mal_p4Bu9_-KJBys9hAALtwOm-LG7Q/pub) 
+ * There's also Python's built-in debugger, `pdb`, and the ipython variant (autocomplete etc) [`ipdb`](https://github.com/gotcha/ipdb)
  * Use PyCharm's debugger, it is excellent. [JetBrains PyCharm docs: Debugging](https://www.jetbrains.com/pycharm/help/debugging.html)
 
 ### Avoiding common mistakes and pitfalls
