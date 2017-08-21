@@ -12,8 +12,8 @@ If you have not installed Python yet, you need to pick a version of Python and t
 
 It's also a good idea to debunk the myths you may have heard about Python.
 
-* [PayPal Engineering Blog: 10 Myths of Enterprise Python](https://www.paypal-engineering.com/2014/12/10/10-myths-of-enterprise-python/) (5-10 minute read)  
-* (And more testimonies: [https://www.python.org/success-stories/](https://www.python.org/success-stories/)
+* **[PayPal Engineering Blog: 10 Myths of Enterprise Python](https://www.paypal-engineering.com/2014/12/10/10-myths-of-enterprise-python/)**
+* (And more testimonies: [python.org → "Success Stories"](https://www.python.org/success-stories/) )
 
 ![](http://imgs.xkcd.com/comics/python.png)
 
