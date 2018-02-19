@@ -2,7 +2,7 @@
 
 Hi! Your skill level is beginner or intermediate, or even advanced. You want to [learn](http://programmer.97things.oreilly.com/wiki/index.php/Continuous_Learning) more Python. There are plenty of resources out there, and this is just a curated list of links. Some for each skill level. It's not everything and the kitchen sink, but it's not all "must-read" either; you should feel free to skip around.
 
-A note on approach: I agree with [_Learn Ruby the Hard Way_](https://learnrubythehardway.org/book/preface.html) that the "hard way" — learning by doing — diving right in — is actually the easy way. So no matter your background, newbie programmer or advanced Pythonista, take a look and learn something new.
+A note on approach: I agree with [_Learn X the Hard Way_](https://learnpythonthehardway.org/) that the "hard way" — learning by doing — diving right in — is actually the easy way. So no matter your background, newbie programmer or advanced Pythonista, take a look and learn something new.
 
 ## Starters
 
@@ -34,6 +34,7 @@ Keep these handy.
 
 If you like self-guided courses, try one of these:
 
+ * [_Learn Python the Hard Way_](https://learnpythonthehardway.org/)
  * [RealPython](https://realpython.com/): "Real Python teaches programming and web development through hands-on, interesting examples that are useful and fun!" (paid)
  * or _[Dive into Python](http://www.diveintopython.net/)_ (the classic). (Note that [Dive into Python 3](http://www.diveintopython3.net/) only covers new & advanced features in Python 3 - not the language as a whole. Don't start there if you're new to Python) (free)
  * or [Google's Python Introduction course (free)](https://developers.google.com/edu/python/)
