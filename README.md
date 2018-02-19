@@ -19,7 +19,7 @@ It's also a good idea to debunk the myths you may have heard about Python.
 
 ### Python community
 
-If nobody’s told you yet, Python’s community is one of the most important things about it :) Join forums, subreddits ([/r/Python](https://reddit.com/r/Python), [/r/learnpython](https://reddit.com/r/Python)), chats (Slacks or [IRCs](http://webchat.freenode.net/?channel=%23%23learnpython)) local [meetups](https://meetup.com), etc., and get support. You’ll learn much better with a community.
+If nobody’s told you yet, Python’s community is one of the most important things about it :) Join forums, subreddits ([/r/Python](https://reddit.com/r/Python), [/r/learnpython](https://reddit.com/r/Python)), chats (Slacks or [IRCs](http://webchat.freenode.net/?channel=##learnpython)) local [meetups](https://meetup.com), etc., and get support. You’ll learn much better with a community.
 
 ### Cheat sheets/quickstarts
 
@@ -66,7 +66,7 @@ Free book (PDF): [How to make mistakes in Python](http://www.oreilly.com/program
 
 One of Python's biggest strengths is its testability. Test-Driven Development and Python go together happily.
 
-  1. start with this concise post, [http://docs.python-guide.org/en/latest/writing/tests/#the-basics](http://docs.python-guide.org/en/latest/writing/tests/%23the-basics)
+  1. start with this concise post, [http://docs.python-guide.org/en/latest/writing/tests/#the-basics](http://docs.python-guide.org/en/latest/writing/tests/#the-basics)
   2. then try this comprehensive post. It's about unit testing with Python's Standard Library unit test package, but leads you up to introducing pytest — the best runner for any kind of tests (you can get started on that right away). It’s also the best framework for writing data-driven tests, when you’re ready to get gung-ho about testing your code :D
   3. [Jeff Knupp: Improve your Python Understanding - Unit Testing](https://www.jeffknupp.com/blog/2013/12/09/improve-your-python-understanding-unit-testing/)
   4. When you’re ready, move onto pytest, definitely :) [pytest.md](pytest.md)
@@ -110,7 +110,7 @@ Not comprehensive, but when I brain-dumped some really good things to know about
 You're probably going to use libraries to do a lot of things. When you have a new scenario and you are thinking what should I use... You should:
 
 1. Ask your community :D
-2. check [Hitchhiker's Guide to Python: Scenario Guide for Python Applications](http://docs.python-guide.org/en/latest/%23scenario-guide-for-python-applications)
+2. check [Hitchhiker's Guide to Python: Scenario Guide for Python Applications](http://docs.python-guide.org/en/latest/#scenario-guide-for-python-applications)
 3. check [Full Stack Python](http://www.fullstackpython.com/table-of-contents.html), another comprehensive but carefully curated guide, full of useful context, advice, etc.
 4. check [Awesome Python](https://github.com/vinta/awesome-python), "A curated list of awesome Python frameworks, libraries, software and resources" — or the [Pythonidae](https://github.com/svaksha/pythonidae)  list
 
