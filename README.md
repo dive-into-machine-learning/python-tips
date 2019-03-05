@@ -12,10 +12,16 @@ If you have not installed Python yet, you need to pick a version of Python and t
 
 [1]: (https://github.com/hangtwenty/python-is-for-lovers/issues/15)
 
-**It's also a good idea to debunk the myths you may have heard about Python.**
+**It's also a good idea to debunk the myths you may have heard about Python:**
 
-* **[PayPal Engineering Blog: 10 Myths of Enterprise Python](https://www.paypal-engineering.com/2014/12/10/10-myths-of-enterprise-python/)**   
-* (For more testimonies about why to learn it, and why to ignore the bellyachers: [python.org → "Success Stories"](https://www.python.org/success-stories/), [this Quora thread on _some_ other famous cases](https://www.quora.com/What-top-tier-companies-use-Python), and [this more general Quora thread about why dynamic languages are found in startups and innovative environments](https://www.quora.com/Why-do-startups-always-use-slow-language-such-as-Python-and-Ruby-but-large-company-uses-fast-language-like-C++-Java-and-Scala). Remember, you are not saying no to other languages. You are just equipping yourself with more. And it's _fun_ god-dammit.)
+* **[PayPal Engineering Blog: 10 Myths of Enterprise Python](https://www.paypal-engineering.com/2014/12/10/10-myths-of-enterprise-python/) -- read this post whether are new to Python or not. It's great, and useful.**   
+
+
+As for _why_ to learn it (and ignore the bellyachers who are wasting their time telling you what to learn): 
+
+* [python.org → "Success Stories"](https://www.python.org/success-stories/)
+* [this Quora thread on _some_ other famous cases](https://www.quora.com/What-top-tier-companies-use-Python)
+* [this more general Quora thread about why dynamic languages are found in startups and innovative environments](https://www.quora.com/Why-do-startups-always-use-slow-language-such-as-Python-and-Ruby-but-large-company-uses-fast-language-like-C++-Java-and-Scala). Remember, you are not saying no to other languages. You are just equipping yourself with more. And it's _fun_ god-dammit.)
 
 ![](http://imgs.xkcd.com/comics/python.png)
 
