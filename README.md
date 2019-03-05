@@ -1,19 +1,21 @@
 # Learn More Python
 
-Hi! Your skill level is beginner or intermediate, or even advanced. You want to [learn](http://programmer.97things.oreilly.com/wiki/index.php/Continuous_Learning) more Python. There are plenty of resources out there, and this is just a curated list of links. Some for each skill level. It's not everything and the kitchen sink, but it's not all "must-read" either; you should feel free to skip around.
+Hi! Your skill level is beginner or intermediate, or even advanced. You want to [learn][1] more Python. There are plenty of resources out there, and this is just a curated list of links. Some for each skill level. It's not everything and the kitchen sink, but it's not all "must-read" either. You should feel free to skip around.
 
-A note on approach: I agree with [_Learn X the Hard Way_](https://learnpythonthehardway.org/) that the "hard way" — learning by doing — diving right in — is actually the easy way. So no matter your background, newbie programmer or advanced Pythonista, take a look and learn something new.
+A note on approach: I agree with [_Learn X the Hard Way_](https://learnpythonthehardway.org/book/preface.html) that [the "hard way" — learning by doing — diving right in — is actually the easy way.][1] So new or not, let's jump in.
 
 ## Starters
 
-The first key is Don't Panic. You can learn most by hands-on experience.
+The first key is Don't Panic. You can learn most [by hands-on experience][1]. A significant benefit of a language like Python, is how learnable it is by jumping into an interactive session. Rapid feedback.
 
-If you have not installed Python yet, you need to pick a version of Python and then install. For both of these subjects, you should read [_Hitchhiker's Guide to Python_](http://docs.python-guide.org/en/latest/). 
+If you have not installed Python yet, you need to pick a version of Python and then install. For both of these subjects, you should read [_Hitchhiker's Guide to Python_](http://docs.python-guide.org/en/latest/). **UPDATE in 2019:** start with Python 3!
 
-It's also a good idea to debunk the myths you may have heard about Python.
+[1]: (https://github.com/hangtwenty/python-is-for-lovers/issues/15)
 
-* **[PayPal Engineering Blog: 10 Myths of Enterprise Python](https://www.paypal-engineering.com/2014/12/10/10-myths-of-enterprise-python/)**
-* (And more testimonies: [python.org → "Success Stories"](https://www.python.org/success-stories/) )
+**It's also a good idea to debunk the myths you may have heard about Python.**
+
+* **[PayPal Engineering Blog: 10 Myths of Enterprise Python](https://www.paypal-engineering.com/2014/12/10/10-myths-of-enterprise-python/)**   
+* (For more testimonies about why to learn it, and why to ignore the bellyachers: [python.org → "Success Stories"](https://www.python.org/success-stories/), [this Quora thread on _some_ other famous cases](https://www.quora.com/What-top-tier-companies-use-Python), and [this more general Quora thread about why dynamic languages are found in startups and innovative environments](https://www.quora.com/Why-do-startups-always-use-slow-language-such-as-Python-and-Ruby-but-large-company-uses-fast-language-like-C++-Java-and-Scala). Remember, you are not saying no to other languages. You are just equipping yourself with more. And it's _fun_ god-dammit.)
 
 ![](http://imgs.xkcd.com/comics/python.png)
 
