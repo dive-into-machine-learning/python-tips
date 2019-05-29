@@ -52,6 +52,22 @@ If you like taking online courses with a group, I’ve heard this one is good:
 
  * [Coursera: An Introduction to Interactive Programming in Python (free)](https://www.coursera.org/learn/interactive-python-1)
 
+### Practice makes perfect
+
+If you want to improve your Python skills by hands on experience, try coding challenge websites. There is a number of them, but the ones below are more relevant to Python and free to start:
+
+* GeeksforGeeks https://www.geeksforgeeks.org/
+* Coderbyte https://coderbyte.com/course/learn-python-in-one-week
+* Hackerrank https://www.hackerrank.com/ (more advanced)
+
+### Mobile Apps
+
+If you like to learn Python on the go, try mobile apps:
+
+* Sololearn https://www.sololearn.com/Course/Python/
+* Pydroid 3 https://play.google.com/store/apps/details?id=ru.iiec.pydroid3&hl=en_US
+* Python Tutorial and Compiler https://play.google.com/store/apps/details?id=make.itdigit.al.python&hl=en_US
+
 ### A good IDE will help you be more productive!
 
 A lot of people think when you're first learning a language like Python, you'll grok it best if you use a basic text editor instead of an IDE. Still, maybe you are just here to learn a little Python for some projects at work, and you just need to get some things done. An IDE might help you.
