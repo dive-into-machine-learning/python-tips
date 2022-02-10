@@ -1,6 +1,6 @@
 # Learn More Python
 
-Hi! Your skill level is beginner or intermediate, or even advanced. You want to [learn][1] more Python. There are plenty of resources out there, and this is just a curated list of links. Some for each skill level. It's not everything and the kitchen sink, but it's not all "must-read" either. You should feel free to skip around.
+Colleagues asked me for some resources so they could learn more Python. So, here you go!
 
 A note on approach: I agree with [_Learn X the Hard Way_](https://learnpythonthehardway.org/book/preface.html) that [the "hard way" — learning by doing — diving right in — is actually the easy way.][1] So new or not, let's jump in.
 
@@ -47,6 +47,7 @@ If you like self-guided courses, try one of these:
  * or _[Dive into Python](http://www.diveintopython.net/)_ (the classic). (Note that [Dive into Python 3](http://www.diveintopython3.net/) only covers new & advanced features in Python 3 - not the language as a whole. Don't start there if you're new to Python) (free)
  * or [Google's Python Introduction course (free)](https://developers.google.com/edu/python/)
  * or [How to Think Like a Computer Scientist: Learning with Python, Interactive Edition (free)](http://interactivepython.org/courselib/static/thinkcspy/index.html) — **if you're relatively new to programing, this is an especially good fit for you**
+   * **Added in 2022: [futurecoder.io](https://futurecoder.io/) — [`alexmojaki/futurecoder`](https://github.com/alexmojaki/futurecoder/))** — "This is a 100% free and interactive course for people to teach themselves programming in Python, especially complete beginners at programming. It is carefully designed to reduce frustration and guide the user while still ensuring that they learn how to solve problems. The goal is for as many people as possible to learn programming."
 
 If you like taking online courses with a group, I’ve heard this one is good:
 
@@ -54,7 +55,7 @@ If you like taking online courses with a group, I’ve heard this one is good:
 
 ### A good IDE will help you be more productive!
 
-A lot of people think when you're first learning a language like Python, you'll grok it best if you use a basic text editor instead of an IDE. Still, maybe you are just here to learn a little Python for some projects at work, and you just need to get some things done. An IDE might help you.
+A lot of people think when you're first learning a language like Python, you'll grok it best if you use a basic text editor instead of an IDE. (It worked for me at least. I started with vim but I use multiple editors/IDEs now, depending on the task.) Some tips -
 
  * I strongly prefer JetBrains [PyCharm](https://www.jetbrains.com/pycharm/). So do most people at my company now. And many many people the world over … PyCharm does incredible things with your Python code. 
  * There's [a free Community Edition you can use immediately](https://www.jetbrains.com/pycharm/download/).
