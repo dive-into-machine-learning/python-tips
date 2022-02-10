@@ -47,7 +47,7 @@ If you like self-guided courses, try one of these:
  * or _[Dive into Python](http://www.diveintopython.net/)_ (the classic). (Note that [Dive into Python 3](http://www.diveintopython3.net/) only covers new & advanced features in Python 3 - not the language as a whole. Don't start there if you're new to Python) (free)
  * or [Google's Python Introduction course (free)](https://developers.google.com/edu/python/)
  * or [How to Think Like a Computer Scientist: Learning with Python, Interactive Edition (free)](http://interactivepython.org/courselib/static/thinkcspy/index.html) — **if you're relatively new to programing, this is an especially good fit for you**
-   * **Added in 2022: [futurecoder.io](https://futurecoder.io/) — [`alexmojaki/futurecoder`](https://github.com/alexmojaki/futurecoder/))** — "This is a 100% free and interactive course for people to teach themselves programming in Python, especially complete beginners at programming. It is carefully designed to reduce frustration and guide the user while still ensuring that they learn how to solve problems. The goal is for as many people as possible to learn programming."
+   * **Added in 2022: [futurecoder.io](https://futurecoder.io/) — [`alexmojaki/futurecoder`](https://github.com/alexmojaki/futurecoder/)** — "This is a 100% free and interactive course for people to teach themselves programming in Python, especially complete beginners at programming. It is carefully designed to reduce frustration and guide the user while still ensuring that they learn how to solve problems. The goal is for as many people as possible to learn programming."
 
 If you like taking online courses with a group, I’ve heard this one is good:
 
