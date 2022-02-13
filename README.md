@@ -1,12 +1,20 @@
+
+
 # Learn More Python
 
 Colleagues asked me for some resources so they could learn more Python. So, here you go!
 
-A note on approach: I agree with [_Learn X the Hard Way_](https://learnpythonthehardway.org/book/preface.html) that [the "hard way" — learning by doing — diving right in — is actually the easy way.][1] So new or not, let's jump in.
+## Where to start (updated 2022)
 
-## Starters
+https://github.com/alexmojaki/futurecoder - https://futurecoder.io
 
-The first key is Don't Panic. You can learn most [by hands-on experience][1]. A significant benefit of a language like Python, is how learnable it is by jumping into an interactive session. Rapid feedback.
+> This is a 100% free and interactive course for people to teach themselves programming in Python, especially complete beginners at programming. It is carefully designed to reduce frustration and guide the user while still ensuring that they learn how to solve problems. The goal is for as many people as possible to learn programming.
+
+----
+
+<details><summary>Archived</summary>
+  
+## Where to start (older notes)
 
 If you have not installed Python yet, you need to pick a version of Python and then install. For both of these subjects, you should read [_Hitchhiker's Guide to Python_](http://docs.python-guide.org/en/latest/). **UPDATE in 2019:** start with Python 3!
 
@@ -165,3 +173,5 @@ Use these links to further expand your knowledge base.
 If you're coming from Java, you should [watch this](https://www.youtube.com/watch?v=OSGv2VnC0go) video for sure and/or grab [this ~70-page book](https://jeffknupp.com/writing-idiomatic-python-ebook/)
 
 Writing a program and none of the guides/docs are helping out? Ask real programmers for help on [Stackoverflow](http://stackoverflow.com/documentation/python/topics) 
+
+</details>
