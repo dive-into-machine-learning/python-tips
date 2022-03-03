@@ -1,14 +1,18 @@
-
-
 # Learn More Python
 
 Colleagues asked me for some resources so they could learn more Python. So, here you go!
 
-## Where to start (updated 2022)
+## New to Python or coding? Start here. (Updated 2022)
 
-https://github.com/alexmojaki/futurecoder - https://futurecoder.io
+**[futurecoder.io](https://futurecoder.io)** — [`alexmojaki/futurecoder`](https://github.com/alexmojaki/futurecoder)
 
 > This is a 100% free and interactive course for people to teach themselves programming in Python, especially complete beginners at programming. It is carefully designed to reduce frustration and guide the user while still ensuring that they learn how to solve problems. The goal is for as many people as possible to learn programming.
+
+**It runs completely in the browser, no installation required.** And it's free. I think this project will help so many people get into Python.
+
+## Already know Python?
+
+**[`vinta/awesome-python — Resources`](https://github.com/vinta/awesome-python#resources)**
 
 ----
 
